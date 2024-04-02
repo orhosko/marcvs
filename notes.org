@@ -1,0 +1,63 @@
+* TODO v0.1:
+- resp parse, html parse veya xml parse
+  - goquery https://github.com/PuerkitoBio/goquery
+  - https://www.zenrows.com/blog/golang-html-parser
+- definition kısmı
+- ilk value olarak test gibi bi kelime
+- ing desteği ile başlamak yeterli
+- kelimeler:
+  - laudatory
+  - disparaging
+  - vilifying
+  - immaculate
+  - ardent
+  - complacent
+  - betuddled
+  - averse
+
+* TODO v0.2:
+- fransızca desteği
+- ve ayrı desteler yani
+* TODO v0.3:
+- etimoloji için bi api
+* TODO v0.4:
+- latin alfabesini kullanmayan diller için bişi(e.g. rusça)
+* TODO v0.5:
+- örnek cümle ekleme
+- kelimeyi bold yapmak için markdown sup
+* TODO v0.6:
+- farklı kart tipleri
+* TODO araştırıp denenebilecekler
+- hazır desteyi doldurma
+- language reactor ile bir şeyler
+- grpc veya tcp ile gui (prob gtk)
+
+* other things
+
+https://dictionary.yandex.net/api/v1/dicservice.json/lookup?key=APIkey&lang=en-ru&text=time
+en-en ru-ru
+
+
+flags 	int 	
+Search options (bitmask of flags).
+Possible values:
+
+    FAMILY = 0x0001 - Apply the family search filter.
+    MORPHO = 0x0004 - Enable searching by word form.
+    POS_FILTER = 0x0008 - Enable a filter that requires matching parts of speech for the search word and translation.
+
+["ru-ru","ru-en","ru-pl","ru-uk","ru-de","ru-fr","ru-es","ru-it","ru-tr","en-ru","en-en","en-de","en-fr","en-es","en-it","en-tr","pl-ru","uk-ru","de-ru","de-en","fr-ru","fr-en","es-ru","es-en","it-ru","it-en","tr-ru","tr-en"]
+
+https://api.dictionaryapi.dev/api/v2/entries/en/cut
+https://en.wiktionary.org/api/rest_v1/#/Page%20content/get_page_definition__term_
+kaikki.org-dictionary-Latin.json
+wiktionary xml dumps https://dumps.wikimedia.org/enwiktionary/20231001/
+
+parser collins, oed, dictioanry.com, longman, 
+cambridge only paid api
+merriam-webster şirketler için api
+wiktionary, 
+wordnet, https://wordnet.princeton.edu/documentation/wngloss7wn, wn test -derin 
+etymonline, 
+glosbe intte scrapleyen kodlar var
+linguee, kesitler verio baya kaliteli gibi
